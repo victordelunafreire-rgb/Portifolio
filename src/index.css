@@ -3,7 +3,21 @@
 @theme {
 	--color-coral: #e12833;
 	--color-pink: #e781bc;
+	--color-purple: #b255a9;
 	--color-blue: #44b2f0;
-	--color-pinkLight: #f5cdd1;
+	--color-pink-light: #f5cdd1;
 	--color-black: #000000;
+
+	--font-title: 'Titan One', sans-serif;
+
+	--animate-carrousel: carrousel 20s linear infinite;
+}
+
+@keyframes carrousel {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-50%);
+	}
 }
