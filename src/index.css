@@ -10,6 +10,13 @@
 
 	--font-title: 'Titan One', sans-serif;
 
+	--text-title-hero: clamp(4rem, 13vw, 16rem);
+	--text-title-section: clamp(3rem, 14vw, 16rem);
+	--text-caption: 1.625rem;
+	--text-body: 1.625rem;
+	--text-label: 0.875rem;
+	--text-button: 1.25rem;
+
 	--animate-carrousel: carrousel 20s linear infinite;
 }
 
@@ -20,4 +27,9 @@
 	to {
 		transform: translateX(-50%);
 	}
+}
+
+@utility sticker-outline {
+	filter: drop-shadow(3px 0 0 white) drop-shadow(-3px 0 0 white)
+		drop-shadow(0 3px 0 white) drop-shadow(0 -3px 0 white);
 }

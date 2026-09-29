@@ -58,3 +58,34 @@ Fonte de título já instalada: Titan One (`--font-title`).
 
 Ícones, bonecos, seus efeitos e os movimentos das demais seções.
 Serão definidos depois de criados os elementos.
+
+## Tipografia
+
+| Papel               | Valor                        |
+| ------------------- | ---------------------------- |
+| Título hero         | `clamp(4rem, 23.5vw, 26rem)` |
+| Título de seção     | `clamp(3rem, 14vw, 16rem)`   |
+| Legenda de projeto  | 1.625rem                     |
+| Corpo               | 1.625rem                     |
+| Sublegenda / rótulo | 0.875rem                     |
+| Botão               | 1.25rem                      |
+
+Sem escada de breakpoint — `vw` e valores fixos resolvem.
+
+## Espaçamento
+
+| Uso                 | Mobile    | md     | lg     |
+| ------------------- | --------- | ------ | ------ |
+| Respiro lateral     | a definir | 1.5rem | 1.5rem |
+| Espaço entre seções | 3rem      | 5rem   | 7rem   |
+| Gap entre cards     | 1.5rem    | 2rem   | 2.5rem |
+
+Respiro lateral no mobile fica por amostragem. As duas últimas linhas são hipótese — não deu pra medir nos prints.
+
+## Layout por seção
+
+| Seção    | Mobile                      | md        | lg          |
+| -------- | --------------------------- | --------- | ----------- |
+| Hero     | empilhado                   | empilhado | lado a lado |
+| Projetos | 1 coluna                    | 2 colunas | 4 colunas   |
+| Stack    | carrossel, sem largura fixa | igual     | igual       |
