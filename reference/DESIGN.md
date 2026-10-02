@@ -52,7 +52,7 @@ usando as cores da própria paleta. As cores estão no index.css.
 
 ## Tipografia
 
-Fonte de título já instalada: Titan One (`--font-title`).
+Fonte de título já instalada: Titan One ou Bagel Fat One (`--font-title`).
 
 ## Fica para depois
 
@@ -61,14 +61,14 @@ Serão definidos depois de criados os elementos.
 
 ## Tipografia
 
-| Papel               | Valor                        |
-| ------------------- | ---------------------------- |
-| Título hero         | `clamp(4rem, 23.5vw, 26rem)` |
-| Título de seção     | `clamp(3rem, 14vw, 16rem)`   |
-| Legenda de projeto  | 1.625rem                     |
-| Corpo               | 1.625rem                     |
-| Sublegenda / rótulo | 0.875rem                     |
-| Botão               | 1.25rem                      |
+| Papel               | Valor                      |
+| ------------------- | -------------------------- |
+| Título hero         | `clamp(4rem, 17vw, 21rem)` |
+| Título de seção     | `clamp(3rem, 14vw, 16rem)` |
+| Legenda de projeto  | 1.625rem                   |
+| Corpo               | 1.625rem                   |
+| Sublegenda / rótulo | 0.875rem                   |
+| Botão               | 1.25rem                    |
 
 Sem escada de breakpoint — `vw` e valores fixos resolvem.
 

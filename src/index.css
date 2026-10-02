@@ -8,9 +8,9 @@
 	--color-pink-light: #f5cdd1;
 	--color-black: #000000;
 
-	--font-title: 'Titan One', sans-serif;
+	--font-title: 'Bagel Fat One', system-ui;
 
-	--text-title-hero: clamp(4rem, 13vw, 16rem);
+	--text-title-hero: clamp(4rem, 17vw, 21rem);
 	--text-title-section: clamp(3rem, 14vw, 16rem);
 	--text-caption: 1.625rem;
 	--text-body: 1.625rem;
