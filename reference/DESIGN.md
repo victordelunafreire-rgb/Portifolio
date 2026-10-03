@@ -89,3 +89,33 @@ Respiro lateral no mobile fica por amostragem. As duas últimas linhas são hip�
 | Hero     | empilhado                   | empilhado | lado a lado |
 | Projetos | 1 coluna                    | 2 colunas | 4 colunas   |
 | Stack    | carrossel, sem largura fixa | igual     | igual       |
+
+## Contato
+
+### Referência
+
+![Referência da seção de contato](06.png)
+
+Seção "Press Play" do site Decathlon x Yeye Weller. Pontos que importam da referência:
+
+- Fundo rosa chapado, com uma ilustração central e um texto curto de apresentação logo abaixo.
+- Faixas decorativas estampadas (azul e preto) marcando o início e o fim da seção.
+- Faixa em marquee logo abaixo, com texto em caixa alta e ícones.
+
+### Ideia
+
+A referência usa um único botão ("INSTAGRAM"). No portfólio, esse botão único vira **um conjunto de botões de ícone**, um para cada meio de contato. Cada ícone é o próprio botão e o disparo da ação, sem texto de apoio obrigatório.
+
+Os botões herdam da referência a borda preta grossa e a sombra offset sólida.
+
+### Contatos
+
+| Meio           | Ação do botão            | Destino                                          |
+| -------------- | ------------------------ | ------------------------------------------------ |
+| E-mail (Gmail) | Abre o cliente de e-mail | `mailto:victordelunafreire@gmail.com`            |
+| LinkedIn       | Abre em nova aba         | `https://www.linkedin.com/in/victordelunafreire` |
+| GitHub         | Abre em nova aba         | `https://github.com/victordelunafreire-rgb`      |
+
+### Pendente
+
+- WhatsApp: ainda não definido (falta número ou link `wa.me`). Só entra na tabela quando for confirmado.
