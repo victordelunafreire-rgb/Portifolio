@@ -18,6 +18,7 @@
 	--text-button: 1.25rem;
 
 	--animate-carrousel: carrousel 20s linear infinite;
+	--animate-swing: swing 4s ease-in-out infinite;
 }
 
 @keyframes carrousel {
@@ -26,6 +27,24 @@
 	}
 	to {
 		transform: translateX(-50%);
+	}
+}
+
+@keyframes swing {
+	0% {
+		transform: rotate(0deg);
+	}
+	40% {
+		transform: rotate(-360deg);
+	}
+	50% {
+		transform: rotate(-360deg);
+	}
+	90% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(0deg);
 	}
 }
 

@@ -14,22 +14,20 @@ function Stack() {
 
 	return (
 		<section id="stack" className="overflow-hidden">
-			<div className="flex gap-4 animate-carrousel">
+			<div className="flex gap-4 animate-carrousel whitespace-nowrap">
 				{skills.map((skill) => (
-					<span
-						className="font-title bg-coral text-black rounded-full px-4 py-2"
-						key={skill + '-original'}
-					>
-						{skill}
-					</span>
+					<div key={skill + '-original'} className="flex gap-4 items-center">
+						<span className="font-title text-black">{skill}</span>
+						<span className="animate-swing">😎</span>
+					</div>
 				))}
 				{skills.map((skill) => (
-					<span
-						className="font-title bg-coral text-black rounded-full px-4 py-2"
-						key={skill + '-clone'}
-					>
-						{skill}
-					</span>
+					<div key={skill + '-clone'} className="flex gap-4 items-center">
+						<span className="font-title text-black whitespace-nowrap">
+							{skill}
+						</span>
+						<span className="animate-swing">😎</span>
+					</div>
 				))}
 			</div>
 		</section>
