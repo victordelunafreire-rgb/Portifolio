@@ -106,7 +106,7 @@ Seção "Press Play" do site Decathlon x Yeye Weller. Pontos que importam da ref
 
 A referência usa um único botão ("INSTAGRAM"). No portfólio, esse botão único vira **um conjunto de botões de ícone**, um para cada meio de contato. Cada ícone é o próprio botão e o disparo da ação, sem texto de apoio obrigatório.
 
-Os botões herdam da referência a borda preta grossa e a sombra offset sólida.
+Os botões são imagens svg, com cantos arredondados, sem borda, com aspecto de adesivo
 
 ### Contatos
 
