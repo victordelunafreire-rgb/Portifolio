@@ -74,11 +74,11 @@ Sem escada de breakpoint — `vw` e valores fixos resolvem.
 
 ## Espaçamento
 
-| Uso                 | Mobile    | md     | lg     |
-| ------------------- | --------- | ------ | ------ |
-| Respiro lateral     | a definir | 1.5rem | 1.5rem |
-| Espaço entre seções | 3rem      | 5rem   | 7rem   |
-| Gap entre cards     | 1.5rem    | 2rem   | 2.5rem |
+| Uso                 | Mobile  | md     | lg     |
+| ------------------- | ------- | ------ | ------ |
+| Respiro lateral     | a1.5rem | 1.5rem | 4rem   |
+| Espaço entre seções | 3rem    | 5rem   | 7rem   |
+| Gap entre cards     | 1.5rem  | 2rem   | 2.5rem |
 
 Respiro lateral no mobile fica por amostragem. As duas últimas linhas são hipótese — não deu pra medir nos prints.
 
