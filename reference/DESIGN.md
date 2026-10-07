@@ -119,3 +119,23 @@ Os botões são imagens svg, com cantos arredondados, sem borda, com aspecto de 
 ### Pendente
 
 - WhatsApp: ainda não definido (falta número ou link `wa.me`). Só entra na tabela quando for confirmado.
+
+## Hero images
+
+Three separate assets make up the hero character. They are exported
+separately on purpose, so each one can be sized, positioned and
+animated independently.
+
+| Layer      | Format                      | Description                |
+| ---------- | --------------------------- | -------------------------- |
+| Bust       | PNG, transparent background | src/assets/hero/Davi       |
+| Sunglasses | PNG, transparent background | src/assets/hero/rayban     |
+| Bubblegum  | SVG                         | src/assets/hero/bubble_gum |
+
+Stacking order: bust at the back, sunglasses and bubblegum on top.
+
+Visual contrast: bust and sunglasses are photographic, bubblegum is a
+flat illustration.
+
+The Figma composition is the reference for how the three layers sit
+relative to each other (relative position and size).

@@ -1,5 +1,6 @@
 import Bills from '../assets/devbills/devbills_02.png';
 import Club from '../assets/devclub/devclub_02.png';
+import Animation from './Animation';
 
 interface HeroProps {
 	name: string;
@@ -13,6 +14,7 @@ function Hero({ name }: HeroProps) {
 		>
 			<p>{name}</p>
 			<h1 className="font-title text-title-hero">Portfólio</h1>
+			<Animation />
 			<a
 				href="#projects"
 				className="flex flex-col items-center gap-4 lg:self-end"
