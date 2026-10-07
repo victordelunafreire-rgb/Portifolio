@@ -14,7 +14,7 @@ function Animation() {
 			<img
 				src={BubbleGum}
 				alt=""
-				className="absolute left-[46.6%] top-[47.8%] w-[45.4%]"
+				className="absolute left-[46.6%] top-[47.8%] w-[45.4%] origin-[38%_8%] animate-bubbaloo"
 			/>
 		</div>
 	);
