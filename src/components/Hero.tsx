@@ -13,8 +13,10 @@ function Hero({ name }: HeroProps) {
 			className="flex flex-col justify-between items-center min-h-dvh py-12 bg-pink-light px-6 lg:px-16"
 		>
 			<p>{name}</p>
-			<h1 className="font-title text-title-hero">Portfólio</h1>
-			<Animation />
+			<div className="flex flex-col items-center">
+				<h1 className="font-title text-title-hero leading-none">Portfólio</h1>
+				<Animation />
+			</div>
 			<a
 				href="#projects"
 				className="flex flex-col items-center gap-4 lg:self-end"

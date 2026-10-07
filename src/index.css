@@ -19,7 +19,7 @@
 
 	--animate-carrousel: carrousel 20s linear infinite;
 	--animate-swing: swing 4s ease-in-out infinite;
-	--animate-bubbaloo: bubbaloo 5s linear infinite;
+	--animate-bubbaloo: bubbaloo 10s linear infinite;
 }
 
 @keyframes carrousel {
