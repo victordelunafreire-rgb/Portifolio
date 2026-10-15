@@ -5,7 +5,11 @@ import RayBan from '../assets/hero/rayban.png';
 function Animation() {
 	return (
 		<div className="relative w-1/2 lg:w-1/4 mt-[-16%] lg:mt-[-12%]">
-			<img src={Statue} alt="busto da estátua de David" />
+			<img
+				src={Statue}
+				alt="busto da estátua de David"
+				className="mask-r-from-95% mask-b-from-95%"
+			/>
 			<img
 				src={RayBan}
 				alt=""
@@ -16,6 +20,16 @@ function Animation() {
 				alt=""
 				className="absolute left-[46.6%] top-[47.8%] w-[45.4%] origin-[38%_8%] animate-bubbaloo"
 			/>
+			{/* <img
+				src={LargeCloud}
+				alt=""
+				className="absolute  left-[-6%] bottom-[-14%] w-[110%] max-w-none"
+			/>
+			<img
+				src={MediumCloud}
+				alt=""
+				className="absolute  right-[-20%] bottom-[0%] w-[40%] max-w-none"
+			/> */}
 		</div>
 	);
 }
