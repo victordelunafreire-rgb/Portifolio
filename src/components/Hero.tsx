@@ -1,6 +1,7 @@
 import Bills from '../assets/devbills/devbills_02.png';
 import Club from '../assets/devclub/devclub_02.png';
 import FirstCloud from '../assets/hero/cloud_1.svg';
+import SecondCloud from '../assets/hero/cloud_2.svg';
 import Animation from './Animation';
 
 interface HeroProps {
@@ -40,6 +41,11 @@ function Hero({ name }: HeroProps) {
 				src={FirstCloud}
 				alt=""
 				className="absolute top-[50%] md:top-[55%] left-0 w-[30%] md:w-[30%] lg:w-[15%] animate-clouds "
+			/>
+			<img
+				src={SecondCloud}
+				alt=""
+				className="absolute top-[28%] md:top-[20%] lg:top-[25%] left-0 w-[30%] md:w-[30%] lg:w-[15%] animate-clouds [animation-delay:-15s] "
 			/>
 		</section>
 	);
