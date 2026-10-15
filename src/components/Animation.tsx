@@ -20,16 +20,6 @@ function Animation() {
 				alt=""
 				className="absolute left-[46.6%] top-[47.8%] w-[45.4%] origin-[38%_8%] animate-bubbaloo"
 			/>
-			{/* <img
-				src={LargeCloud}
-				alt=""
-				className="absolute  left-[-6%] bottom-[-14%] w-[110%] max-w-none"
-			/>
-			<img
-				src={MediumCloud}
-				alt=""
-				className="absolute  right-[-20%] bottom-[0%] w-[40%] max-w-none"
-			/> */}
 		</div>
 	);
 }
