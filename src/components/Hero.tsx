@@ -18,7 +18,7 @@ function Hero({ name }: HeroProps) {
 			<img
 				src={ThirdCloud}
 				alt=""
-				className="absolute top-[28%] md:top-[20%] lg:top-[25%] left-0 w-[30%] md:w-[30%] lg:w-[15%] animate-clouds [animation-delay:-7s] "
+				className="absolute top-[20%] md:top-[8%] lg:top-[10%] left-0 w-[50%] md:w-[50%] lg:w-[25%] animate-clouds [animation-delay:-7s] "
 			/>
 			<p>{name}</p>
 			<div className="flex flex-col items-center">
@@ -48,12 +48,12 @@ function Hero({ name }: HeroProps) {
 			<img
 				src={FirstCloud}
 				alt=""
-				className="absolute top-[50%] md:top-[55%] left-0 w-[30%] md:w-[30%] lg:w-[15%] animate-clouds "
+				className="absolute top-[50%] md:top-[55%] left-0 w-[50%] md:w-[50%] lg:w-[25%] animate-clouds "
 			/>
 			<img
 				src={SecondCloud}
 				alt=""
-				className="absolute top-[28%] md:top-[20%] lg:top-[25%] left-0 w-[30%] md:w-[30%] lg:w-[15%] animate-clouds [animation-delay:-15s] "
+				className="absolute top-[25%] md:top-[15%] lg:top-[15%] left-0 w-[50%] md:w-[50%] lg:w-[25%] animate-clouds [animation-delay:-15s] "
 			/>
 		</section>
 	);
