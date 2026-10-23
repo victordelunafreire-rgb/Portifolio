@@ -4,7 +4,7 @@ import RayBan from '../assets/hero/rayban.png';
 
 function Animation() {
 	return (
-		<div className="relative w-1/2 lg:w-1/4 mt-[-16%] lg:mt-[-12%]">
+		<div className="relative w-[70%] md:w-1/2 lg:w-[30%] mt-[-16%] lg:mt-[-12%]">
 			<img
 				src={Statue}
 				alt="busto da estátua de David"
