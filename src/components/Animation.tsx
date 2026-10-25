@@ -13,7 +13,7 @@ function Animation() {
 			<img
 				src={RayBan}
 				alt=""
-				className="absolute left-[26.6%] top-[9.8%] w-[78.4%] mix-blend-multiply"
+				className="absolute left-[26.6%] top-[9.8%] w-[78.4%] mix-blend-multiply animate-sunglasses"
 			/>
 			<img
 				src={BubbleGum}

@@ -20,6 +20,7 @@
 	--animate-carrousel: carrousel 20s linear infinite;
 	--animate-swing: swing 4s ease-in-out infinite;
 	--animate-bubbaloo: bubbaloo 10s linear infinite;
+	--animate-sunglasses: sunglasses 10s linear infinite;
 	--animate-clouds: clouds 30s linear infinite;
 }
 
@@ -47,6 +48,24 @@
 	}
 	100% {
 		transform: rotate(0deg);
+	}
+}
+
+@keyframes sunglasses {
+	0% {
+		transform: translateY(0);
+	}
+	70% {
+		transform: translateY(0);
+	}
+	74% {
+		transform: translateY(16%);
+	}
+	90% {
+		transform: translateY(16%);
+	}
+	100% {
+		transform: translateY(0);
 	}
 }
 
