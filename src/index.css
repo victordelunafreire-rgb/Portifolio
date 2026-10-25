@@ -21,6 +21,7 @@
 	--animate-swing: swing 4s ease-in-out infinite;
 	--animate-bubbaloo: bubbaloo 10s linear infinite;
 	--animate-sunglasses: sunglasses 10s linear infinite;
+	--animate-scared-eyes: scared-eyes 10s linear infinite;
 	--animate-clouds: clouds 30s linear infinite;
 }
 
@@ -48,6 +49,27 @@
 	}
 	100% {
 		transform: rotate(0deg);
+	}
+}
+
+@keyframes scared-eyes {
+	0% {
+		opacity: 0;
+	}
+	72% {
+		opacity: 0;
+	}
+	74% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 1;
+	}
+	92% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
 	}
 }
 

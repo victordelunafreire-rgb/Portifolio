@@ -1,6 +1,7 @@
 import BubbleGum from '../assets/hero/bubble_gum.svg';
 import Statue from '../assets/hero/Davi.png';
 import RayBan from '../assets/hero/rayban.png';
+import Eyes from '../assets/hero/scared-eyes.svg';
 
 function Animation() {
 	return (
@@ -9,6 +10,11 @@ function Animation() {
 				src={Statue}
 				alt="busto da estátua de David"
 				className="mask-r-from-95% mask-b-from-95%"
+			/>
+			<img
+				src={Eyes}
+				alt=""
+				className="absolute left-[42%] top-[23.9%] w-[38.1%] animate-scared-eyes"
 			/>
 			<img
 				src={RayBan}
