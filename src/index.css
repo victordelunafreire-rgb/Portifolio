@@ -53,12 +53,19 @@
 @keyframes bubbaloo {
 	0% {
 		transform: scale(0.2);
+		opacity: 1;
 	}
 	70% {
 		transform: scale(1);
+		opacity: 1;
+	}
+	71% {
+		transform: scale(1.5);
+		opacity: 0;
 	}
 	100% {
 		transform: scale(0.2);
+		opacity: 0;
 	}
 }
 
