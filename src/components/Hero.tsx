@@ -29,7 +29,7 @@ function Hero({ name }: HeroProps) {
 			</div>
 			<a
 				href="#projects"
-				className="flex flex-col items-center gap-4 lg:self-end"
+				className="flex flex-col items-center gap-4 lg:hidden"
 			>
 				<div className="flex">
 					<img
