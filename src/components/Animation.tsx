@@ -8,7 +8,7 @@ function Animation() {
 		<div className="relative w-[70%] md:w-1/2 lg:w-[30%] mt-[-16%] lg:mt-[-12%]">
 			<img
 				src={Statue}
-				alt="busto da estátua de David"
+				alt="busto da estátua de David de Michelangelo usando óculos Ray-Ban, mascando chiclete. O chiclete estoura e ele se assusta."
 				className="mask-r-from-95% mask-b-from-95%"
 			/>
 			<img
